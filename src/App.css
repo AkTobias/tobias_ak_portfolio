@@ -2,10 +2,33 @@
 :root{
   --BG-COLOR: #333;
   --HOVER-COLOR: #1abc9c;
+  --BORDER-R: 15px;
+  --BOX-SH: box-shadow: 2px 8px 10px rgba(26, 188, 156, 0.7);
 
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
+#root, .app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+main {
+  flex: 1;
+  background-color: white;
+}
 
 /* <<!!HEADER!!>> */
 
@@ -42,13 +65,84 @@
 
 .header a:hover{
   color: var(--HOVER-COLOR);
-  text-shadow: 0 0 10px rgba(26, 188, 156, 0.7);
+  text-shadow: var(--BOX-SH)
  
   
 }
 
-main{
-  align-items: center;
+
+/* <<!!PORTFOLIO!!>> */
+
+.portfolio__header{
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio__main {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  gap: 50px;
+  margin: 1rem;
+ 
+}
+
+
+
+.portfolio__card{
+  border: 3px solid var(--BG-COLOR);
   align-content: center;
-  align-self: center;
+  align-items: center;
+  text-align: center;
+  border-radius: var(--BORDER-R);
+  transition: transform 0.3s;
+}
+
+.portfolio__card:hover{
+  transform: translateY(-5px);
+  border-color: var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH)
+}
+.portfolio__h3{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 1.5rem;
+ color: black;
+  
+}
+
+.portfolio__p{
+ padding: 15px;
+ 
+font-size: 1.25rem;
+}
+
+.project__link{
+  text-decoration: none;
+}
+
+.card__img {
+  display: block; 
+  margin: 20px;
+  height: auto; 
+  border-radius: var(--BORDER-R); 
+  object-fit: cover; 
+}
+
+
+
+/* || FOOTER || */
+footer{
+  color: white;
+  font-size: 1.5rem;
+  background-color: var(--BG-COLOR); /* Dark background for the header */
+  padding: 1rem 0; /* Add some padding */  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+  
 }
