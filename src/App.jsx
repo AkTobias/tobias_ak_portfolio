@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
+import Home from "./components/home";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
@@ -14,7 +15,7 @@ function App() {
          <Header />
          <main>
             <Routes>
-               <Route path="/" element={<h1> Welcome to my website!</h1>} />
+               <Route path="/" element={<Home />} />
                <Route path="about" element={<About />} />
                <Route path="portfolio" element={<Portfolio />} />
                <Route path="technologies" element={<Technologies />} />

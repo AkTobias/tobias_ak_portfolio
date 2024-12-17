@@ -70,6 +70,60 @@ main {
   
 }
 
+/* || HOME || */
+.home__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.home__img{
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+
+}
+
+/* || ABOUT || */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  padding: 2rem;
+  text-align: center; 
+}
+
+
+.about__header {
+  margin-bottom: 2rem;
+}
+
+/* Styling for individual sections within the About page */
+.about__section {
+  border: 2px black solid;
+  width: 80%; /* Set the width to limit the content size */
+  max-width: 800px; /* Max width ensures it's not too wide */
+  margin-bottom: 2rem; /* Adds space between sections */
+}
+
+/* List styling */
+.about__section ul {
+  padding-left: 20px; /* Indentation for list items */
+}
+
+/* Optional: Adding more space between sections */
+.about__section h3 {
+  margin-top: 1rem; /* Adds space between headings and text */
+}
+
+  
+
 
 /* <<!!PORTFOLIO!!>> */
 
@@ -217,6 +271,7 @@ font-size: 1.25rem;
   box-shadow: var(--BOX-SH);
   border-radius: 10px 0 0 10px;
 }
+
 
 
 
