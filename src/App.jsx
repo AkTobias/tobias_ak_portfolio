@@ -11,7 +11,6 @@ function App() {
    return (
       <Router>
          <Header />
-         <h1>Hello World</h1>
          <main>
             <Routes>
                <Route path="/" element={<h1> Welcome to my website!</h1>} />
