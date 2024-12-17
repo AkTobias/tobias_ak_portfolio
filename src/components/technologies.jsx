@@ -16,11 +16,11 @@ function Technologies() {
                </div>
                <h3 className="technologies__h3">CSS</h3>
                <div className="progress__bar">
-                  <div className="progress" style={{ width: "60%" }}></div>
+                  <div className="progress" style={{ width: "75%" }}></div>
                </div>
                <h3 className="technologies__h3">React</h3>
                <div className="progress__bar">
-                  <div className="progress" style={{ width: "50%" }}></div>
+                  <div className="progress" style={{ width: "60%" }}></div>
                </div>
                <h3 className="technologies__h3">C#</h3>
                <div className="progress__bar">
