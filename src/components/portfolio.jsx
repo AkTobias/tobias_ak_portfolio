@@ -11,12 +11,13 @@ function Portfolio() {
          <div className="portfolio__main">
             {cards.map((card) => (
                <a
+                  key={card.id}
                   href={card.link}
                   target="_blank"
                   className="project__link"
                   rel="noopner noreferrer" // => prevents malicious pages from accessing the original page
                >
-                  <div key={card.id} className="portfolio__card">
+                  <div className="portfolio__card">
                      <img
                         src={card.image}
                         alt={card.title}
