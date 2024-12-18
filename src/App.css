@@ -93,36 +93,72 @@ main {
 .about {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center;
+  align-items: center;
   padding: 2rem;
-  text-align: center; 
+  gap: 2rem; 
+  background-color: #f9f9f9;
+  color: #333; 
+  text-align: center;
 }
 
-
-.about__header {
-  margin-bottom: 2rem;
-}
-
-/* Styling for individual sections within the About page */
+/* Styling for individual sections */
 .about__section {
-  border: 2px black solid;
-  width: 80%; /* Set the width to limit the content size */
-  max-width: 800px; /* Max width ensures it's not too wide */
-  margin-bottom: 2rem; /* Adds space between sections */
+  background-color: #fff; 
+  width: 90%; 
+  max-width: 750px; 
+  padding: 2cap;
+  border-radius: 15px; 
+  box-shadow: 0px 4px 10px var(--HOVER-COLOR); 
+  margin-bottom: 1.5rem; 
 }
 
-/* List styling */
-.about__section ul {
-  padding-left: 20px; /* Indentation for list items */
-}
-
-/* Optional: Adding more space between sections */
-.about__section h3 {
-  margin-top: 1rem; /* Adds space between headings and text */
-}
-
+/* Headings */
+.about__section h2 {
+  font-size: 2.8rem;
+  color: #444; 
+  margin-bottom: 2rem; 
+ 
+ 
   
+}
+
+.about__section h3 {
+  font-size: 2rem;
+  color: #555;
+  margin-top: 1.5rem;
+}
+
+/* Paragraphs */
+.about__section p {
+  font-size: 1.2rem;
+  line-height: 1.6; 
+  color: #666; 
+  margin: 0.5rem 0;
+}
+
+/* Lists */
+.about__section ul {
+  padding: 0;
+  margin: 1rem 0;
+  list-style: none; 
+}
+
+.about__section li {
+  margin-bottom: 1rem; 
+  text-align: center; 
+  font-size: 1.1rem;
+  color: #555;
+
+}
+
+.about__section li h4 {
+  font-size: 1.4rem;
+  color: #333; 
+  margin-bottom: 0.3rem; 
+  border-bottom: 2px solid var(--HOVER-COLOR); 
+  align-items: center;
+ 
+}
 
 
 /* <<!!PORTFOLIO!!>> */

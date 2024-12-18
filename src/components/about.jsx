@@ -1,9 +1,9 @@
 function About() {
    return (
       <article id="about" className="about">
-         <section className="about__header">
+         <section className="about__section">
             <h2>About Me</h2>
-            <p className="about__intro">
+            <p>
                My name is Tobias Akermark. I'm an aspiring programmer with a
                passion for creating intuitive and efficient solutions. I love to
                learn new technologies and continually improve my skills.
@@ -33,16 +33,19 @@ function About() {
             <ul>
                <ul>
                   <li>
-                     Gaming - I enjoy exploring virtual worlds and testing my
-                     skills in various genres of games.
+                     <h4>Gaming</h4>I enjoy exploring virtual worlds and testing
+                     my skills in various genres of games and playing with my
+                     friends.
                   </li>
                   <li>
-                     Going to the gym - It's essential to me, as it helps
+                     <h4>Working Out</h4>
+                     Going to the gym is essential for me, as it helps
                      strengthen both my mind and body.
                   </li>
                   <li>
-                     Being in nature - Whether it's hiking, camping, or simply
-                     going for a walk, I find peace and inspiration in nature.
+                     <h4>Being In Nature</h4>
+                     Whether it's hiking, camping, or simply going for a walk, I
+                     find peace and inspiration in nature.
                   </li>
                </ul>
             </ul>
