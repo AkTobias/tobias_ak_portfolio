@@ -4,6 +4,7 @@
   --HOVER-COLOR: #1abc9c;
   --BORDER-R: 15px;
   --BOX-SH: 2px 8px 10px rgba(26, 188, 156, 0.7);
+  --BTN-COLOR: #fff;
 
 }
 
@@ -41,6 +42,7 @@ main {
     z-index: 1000; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
     transition: padding 0.3s, background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: var(--BOX-SH);
 
  
 }
@@ -58,7 +60,7 @@ main {
   text-decoration: none;
   font-size: 1.2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #fff;
+  color: var(--BTN-COLOR);
   transition: color 0.3s;
   
 }
@@ -78,7 +80,14 @@ main {
   justify-content: center;
   height: 100vh;
   text-align: center;
+  padding-bottom: 2rem;
 }
+.home__header{
+  font-size: 3rem;
+  padding: 2rem;
+
+}
+
 
 
 .home__img{
@@ -87,6 +96,48 @@ main {
   margin-top: 1rem;
 
 }
+
+.home__button{
+  background-color: var(--BG-COLOR);
+  color: var(--BTN-COLOR);
+  margin-top: 3rem;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: var(--BORDER-R);
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 240px;
+  box-shadow: var(--BOX-SH);
+  
+  
+}
+
+.home__button:hover{
+  color: BLACK;
+  background-color: var(--HOVER-COLOR);
+  
+  
+  
+}
+.home__button a{
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 2rem;
+}
+
+
+
+.home__button a:hover{
+  color: black;
+
+}
+  
+
+
+
+
+
+
 
 /* || ABOUT || */
 
