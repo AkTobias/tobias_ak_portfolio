@@ -1,9 +1,10 @@
 import myHs from "../img/placeholderHs.jpg";
+import CV from "../documents/cv.pdf";
 
 function Home() {
    return (
       <section className="home__section">
-         <h1>Welcome to my first react website!</h1>
+         <h1 className="home__header">Welcome to my first react website!</h1>
          <img
             src={myHs}
             alt="picture of me"
@@ -11,10 +12,18 @@ function Home() {
             height={400}
             width={300}
          />
-
-         <h2>
-            add me on linked: <a href=""></a>
-         </h2>
+         <button
+            className="home__button"
+            rel="noopner noreferrer"
+            onClick={() => window.open("https://www.linkedin.com/", "_blank")}
+         >
+            My linkedIn Page
+         </button>
+         <button className="home__button">
+            <a href={CV} download="cv.pdf">
+               Download my CV
+            </a>
+         </button>
       </section>
    );
 }
