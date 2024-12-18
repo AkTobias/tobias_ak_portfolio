@@ -4,14 +4,14 @@
        "title": "Dice Roller",
        "description": "A program when you want to roll some dice.",
        "image": "https://www.publicdomainpictures.net/pictures/70000/velka/red-dice-set.jpg",
-       "link": "https://www.google.com"
+       "link": "https://github.com/AkTobias/DiceRoller"
     },
     {
        "id": 2,
        "title": "Password Generator",
        "description": "Do you want a save password? Use this.",
        "image": "https://slashcrypto.org/images/scribble.png",
-       "link": "https://www.google.com"
+       "link": "https://github.com/AkTobias/RandomPasswordGenerator"
     },
     {
        "id": 3,
