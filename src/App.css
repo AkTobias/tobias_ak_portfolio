@@ -116,8 +116,6 @@ main {
   color: BLACK;
   background-color: var(--HOVER-COLOR);
   
-  
-  
 }
 .home__button a{
   text-decoration: none;
@@ -125,16 +123,11 @@ main {
   margin-bottom: 2rem;
 }
 
-
-
 .home__button a:hover{
   color: black;
 
 }
   
-
-
-
 
 
 
