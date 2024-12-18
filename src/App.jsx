@@ -6,6 +6,7 @@ import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Technologies from "./components/technologies";
 import Footer from "./components/footer";
+import Referrals from "./components/referrals";
 
 import "./App.css";
 
@@ -13,10 +14,11 @@ function App() {
    return (
       <Router>
          <Header />
-         <main>
+         <main className="main_main">
             <Routes>
                <Route path="/" element={<Home />} />
                <Route path="about" element={<About />} />
+               <Route path="referrals" element={<Referrals />} />
                <Route path="portfolio" element={<Portfolio />} />
                <Route path="technologies" element={<Technologies />} />
                <Route path="contact" element={<Contact />} />
