@@ -1,16 +1,39 @@
 [
     {
-        "name":"Erik",
-        "quote":"Always a good working with him!"
+        "name":"Erik R",
+        "quote":"I thrive in environments where teamwork is key—because together, we can achieve the impossible."
+    },
+    {
+        "name":"Thomas A",
+        "quote":"The best teams work like a symphony: each member contributes a unique sound, and I strive to play my part perfectly."
+    },
+    {
+        "name":"Jenny E",
+        "quote": "Teamwork means putting the mission above ego, and as a team player, I always aim to foster unity and drive results."
+    },
+    {
+        "name":"David Q",
+        "quote":"As a team player, I focus on solutions, inspire positivity, and ensure everyone feels valued."
+    },
+    {
+        "name":"Erika E",
+        "quote":"The best teams work like a symphony: each member contributes a unique sound, and I strive to play my part perfectly."
+    },
+    {
+        "name":"Thomas A",
+        "quote":"The secret to my success as a team player is knowing when to lead, when to listen, and when to celebrate others."
+        
+    },
+    {
+        "name":"May J",
+        "quote":"Collaboration isn't just about working together—it's about lifting others while delivering results, and that's what I bring to every team."
+    },
+    {
+        "name":"Gustav M",
+        "quote":"A great team player turns 'I' into 'we' and makes the team stronger every day."
 
-    },
-    {
-        "name":"Thomas",
-        "quote":"Great teamplayer"
-    },
-    {
-        "name":"Jenny",
-        "quote": "A real genleman!"
+
     }
+
 
 ]

@@ -388,6 +388,37 @@ font-size: 1.25rem;
 
 
 
+/* || REFERRALS || */
+.card__container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  
+}
+
+.card__box{
+  padding: 2px;
+  margin: 20px;
+  border-radius: var(--BORDER-R);
+  border: 2px solid var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH);
+}
+
+.align-right{
+  
+  background-color: #1abc9c;
+}
+.align-left{
+  align-content: left;
+  background-color: blue;
+}
+
+
+
+
+
+
 /* || FOOTER || */
 footer{
   color: white;
@@ -397,4 +428,5 @@ footer{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   
 }
+
 
