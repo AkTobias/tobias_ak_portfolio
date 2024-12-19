@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
-
-
 /* <<!!VARIABLES!!>> */
 :root{
   --BG-COLOR: #333;
@@ -86,8 +84,13 @@ main {
 .header a:hover{
   color: var(--HOVER-COLOR);
   text-shadow: var(--BOX-SH)
- 
-  
+
+}
+
+.header a.active {
+  color: var(--HOVER-COLOR); /* Green color for the active link */
+  text-shadow: var(--BOX-SH); /* Optional shadow effect */
+  font-weight: bold; /* Optional: make it stand out */
 }
 
 /* || HOME || */
@@ -95,21 +98,24 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
   text-align: center;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 .home__header{
+
   font-size: 3rem;
-  padding: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
 
 }
 
 
 
 .home__img{
-  border-radius: 50%;
+  border-radius: 20%;
   object-fit: cover;
   margin-top: 1rem;
 
@@ -260,16 +266,21 @@ main {
   transition: transform 0.3s;
 }
 
-.portfolio__card:hover{
-  transform: translateY(-5px);
-  border-color: var(--HOVER-COLOR);
-  box-shadow: var(--BOX-SH)
-}
+
 .portfolio__h3{
  font-family: 'Courier New', Courier, monospace;
  font-size: 1.5rem;
  color: black;
   
+
+}
+.card__img {
+  display: block; 
+  margin: 20px;
+  height: auto; 
+  border-radius: var(--BORDER-R); 
+  object-fit: cover; 
+  border: 2px solid black;
 }
 
 .portfolio__p{
@@ -281,14 +292,16 @@ font-size: 1.25rem;
 .project__link{
   text-decoration: none;
 }
-
-.card__img {
-  display: block; 
-  margin: 20px;
-  height: auto; 
-  border-radius: var(--BORDER-R); 
-  object-fit: cover; 
+.portfolio__card:hover{
+  transform: translateY(-5px);
+  border-color: var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH)
 }
+.card__img:hover{
+  border: 2px solid var(--HOVER-COLOR)
+}
+
+
 
 /* || CONTACT || */
 
@@ -393,7 +406,7 @@ font-size: 1.25rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: center;
+  
   
 }
 
@@ -429,14 +442,14 @@ font-size: 1.25rem;
 
 /* Align-right for even index */
 .align-right {
-  background-color: #1abc9c;
+  background-color: rgba(223, 221, 221, 0.758);
   align-self: flex-end; /* Pushes the card to the right */
   text-align: center;
 }
 
 /* Align-left for odd index */
 .align-left {
-  background-color: blue;
+  background-color: rgb(199, 199, 202);
   align-self: flex-start; /* Pushes the card to the left */
   text-align: center;
 }
