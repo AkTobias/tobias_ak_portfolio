@@ -405,15 +405,41 @@ font-size: 1.25rem;
   box-shadow: var(--BOX-SH);
 }
 
-.align-right{
-  
-  background-color: #1abc9c;
-}
-.align-left{
-  align-content: left;
-  background-color: blue;
+
+/* || REFERRALS || */
+/* || REFERRALS || */
+.card__container {
+  display: flex;
+  flex-direction: column; /* Stack the cards vertically */
+  align-items: center; /* Center the cards horizontally */
+  width: 100%; /* Ensure the container spans the full page */
+  margin: 0 auto; /* Center the container */
 }
 
+.card__box {
+  display: inline-block; /* Shrink-wrap the card size to its content */
+  padding: 16px;
+  margin: 16px 0; /* Adds vertical spacing between cards */
+  border-radius: var(--BORDER-R);
+  border: 2px solid var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH);
+  max-width: 90%; /* Prevent overly wide boxes */
+  word-wrap: break-word; /* Ensure text wraps if it’s too long */
+}
+
+/* Align-right for even index */
+.align-right {
+  background-color: #1abc9c;
+  align-self: flex-end; /* Pushes the card to the right */
+  text-align: center;
+}
+
+/* Align-left for odd index */
+.align-left {
+  background-color: blue;
+  align-self: flex-start; /* Pushes the card to the left */
+  text-align: center;
+}
 
 
 
