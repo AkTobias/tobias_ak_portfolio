@@ -1,4 +1,5 @@
 import myHs from "../img/placeholderHs.jpg";
+import tobiasHs from "../img/tobiasHs.jpg";
 import CV from "../documents/cv.pdf";
 
 function Home() {
@@ -6,7 +7,7 @@ function Home() {
       <section className="home__section">
          <h1 className="home__header">Welcome to my first react website!</h1>
          <img
-            src={myHs}
+            src={tobiasHs}
             alt="picture of me"
             className="home__img"
             height={400}
