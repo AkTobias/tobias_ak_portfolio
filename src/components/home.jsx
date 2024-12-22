@@ -16,7 +16,12 @@ function Home() {
          <button
             className="home__button"
             rel="noopner noreferrer"
-            onClick={() => window.open("https://www.linkedin.com/", "_blank")}
+            onClick={() =>
+               window.open(
+                  "https://se.linkedin.com/in/tobias-akermark-605887295?trk=people-guest_people_search-card",
+                  "_blank"
+               )
+            }
          >
             My linkedIn Page
          </button>
