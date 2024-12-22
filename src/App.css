@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
-
-
 /* <<!!VARIABLES!!>> */
 :root{
   --BG-COLOR: #333;
@@ -86,8 +84,13 @@ main {
 .header a:hover{
   color: var(--HOVER-COLOR);
   text-shadow: var(--BOX-SH)
- 
-  
+
+}
+
+.header a.active {
+  color: var(--HOVER-COLOR); /* Green color for the active link */
+  text-shadow: var(--BOX-SH); /* Optional shadow effect */
+  font-weight: bold; /* Optional: make it stand out */
 }
 
 /* || HOME || */
@@ -95,21 +98,24 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
   text-align: center;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 .home__header{
+
   font-size: 3rem;
-  padding: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
 
 }
 
 
 
 .home__img{
-  border-radius: 50%;
+  border-radius: 20%;
   object-fit: cover;
   margin-top: 1rem;
 
@@ -260,16 +266,21 @@ main {
   transition: transform 0.3s;
 }
 
-.portfolio__card:hover{
-  transform: translateY(-5px);
-  border-color: var(--HOVER-COLOR);
-  box-shadow: var(--BOX-SH)
-}
+
 .portfolio__h3{
  font-family: 'Courier New', Courier, monospace;
  font-size: 1.5rem;
  color: black;
   
+
+}
+.card__img {
+  display: block; 
+  margin: 20px;
+  height: auto; 
+  border-radius: var(--BORDER-R); 
+  object-fit: cover; 
+  border: 2px solid black;
 }
 
 .portfolio__p{
@@ -281,14 +292,16 @@ font-size: 1.25rem;
 .project__link{
   text-decoration: none;
 }
-
-.card__img {
-  display: block; 
-  margin: 20px;
-  height: auto; 
-  border-radius: var(--BORDER-R); 
-  object-fit: cover; 
+.portfolio__card:hover{
+  transform: translateY(-5px);
+  border-color: var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH)
 }
+.card__img:hover{
+  border: 2px solid var(--HOVER-COLOR)
+}
+
+
 
 /* || CONTACT || */
 
@@ -382,8 +395,62 @@ font-size: 1.25rem;
   height: 100%;
   background-color: var(--HOVER-COLOR);
   box-shadow: var(--BOX-SH);
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
 }
+
+
+
+
+/* || REFERRALS || */
+.card__container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  
+}
+
+.card__box{
+  padding: 2px;
+  margin: 20px;
+  border-radius: var(--BORDER-R);
+  border: 2px solid var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH);
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column; /* Stack the cards vertically */
+  align-items: center; /* Center the cards horizontally */
+  width: 100%; /* Ensure the container spans the full page */
+  margin: 0 auto; /* Center the container */
+}
+
+.card__box {
+  display: inline-block; /* Shrink-wrap the card size to its content */
+  padding: 16px;
+  margin: 16px 0; /* Adds vertical spacing between cards */
+  border-radius: var(--BORDER-R);
+  border: 2px solid var(--HOVER-COLOR);
+  box-shadow: var(--BOX-SH);
+  max-width: 90%; /* Prevent overly wide boxes */
+  word-wrap: break-word; /* Ensure text wraps if it’s too long */
+}
+
+/* Align-right for even index */
+.align-right {
+  background-color: rgba(223, 221, 221, 0.758);
+  align-self: flex-end; /* Pushes the card to the right */
+  text-align: center;
+}
+
+/* Align-left for odd index */
+.align-left {
+  background-color: rgb(199, 199, 202);
+  align-self: flex-start; /* Pushes the card to the left */
+  text-align: center;
+}
+
 
 
 
@@ -397,4 +464,5 @@ footer{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   
 }
+
 

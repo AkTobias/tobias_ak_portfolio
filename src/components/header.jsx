@@ -9,7 +9,12 @@ function Header() {
                   <Link to="/">Home</Link>
                </li>
                <li>
-                  <Link to="/about">About</Link>
+                  <Link
+                     to="/about"
+                     className={({ isActive }) => (isActive ? active : "")}
+                  >
+                     About
+                  </Link>
                </li>
                <li>
                   <Link to="/referrals">Referrals</Link>
