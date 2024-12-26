@@ -3,21 +3,38 @@ Not Finished yet
 !!IMPORTANT!!
 After downloading the repo, type -npm install to get all modules, since node-modules is excluded from git to save space.
 
-For all the external links in the project i used rel="noopener noreferrer".To prevents malicious pages from accessing the original page's JavaScript and manipulating it and noreferrer adds an extra layer of privacy by not sending the Referer header to the target page.
+--Technologies Used--
 
-methods/principles?
-Used Fromspree for working contact form.
+-  React: The core libary for building the user interface.
+-  CSS: for styling components.
+-  React Hooks (useState) for managing state, especially in functional components.
+-  Formspree: For handeling the contact form submission.
 
-useState => aslo for contact from
+--Project Structure--
+The project is divided into the following components and files:
 
-I've putted all global css in index.css and all CSS for the components in App.js
+-  about.jsx: Contains the About section of the site.
+-  contact.jsx: The Contact page that integrates a form for users to submit inquiries.
+-  footer.jsx: Contains the footer section of the site.
+-  header.jsx: The header section of the site, including a navigation bar.
+-  home.jsx: The homepage of the site.
+-  portfolio.jsx: Displaying my projects.
+-  referrals.jsx: Section showcasing referrals.
+-  technologies.jsx: Section showcasing technologies that i've worked with.
+-  App.js: Contains the main layout and routing of the app.
+-  index.css: Global CSS for the project.
 
-This React project is devided in the following
-about.jsx,
-contact,jsx
-footer.jsx
-header.jsx
-home.jsx
-porfolio.jsx
-refferals.jsx
-techologies.jxs
+--Principles and Methods--
+Component-Based Architecture: The project follows React's best practice of breaking down the UI into smaller, reusable components. This ensures maintainability and scalability.
+
+React Hooks (useState): The useState hook is used to manage component state, especially in the Contact form for handling form inputs and submission.
+External Form Handling: Instead of creating a back-end API to handle form submissions, I have used Formspree for form handling, which simplifies the process by managing the server-side logic for us.
+
+CSS Organization: All global CSS styles are placed in the index.css, while component-specific styles are kept inside the respective components (e.g., in App.js).
+
+--External Links and Privacy--
+
+To ensure the security and privacy of users, rel="noopener noreferrer" is used in all external links. This serves two purposes:
+
+noopener: Prevents the newly opened page from being able to access the original page’s JavaScript, which protects against malicious pages.
+noreferrer: Ensures that no Referer header is sent to the target page, adding an extra layer of privacy by not revealing the origin of the request.

@@ -14,7 +14,7 @@ function Contact() {
          <ValidationError prefix="Email" field="email" errors={state.errors} />
 
          <label htmlFor="yourName">Name</label>
-         <input type="text" name="yourName" />
+         <input type="yourName" name="yourName" />
          <ValidationError
             prefix="YourName"
             field="yourName"
@@ -22,7 +22,7 @@ function Contact() {
          />
 
          <label htmlFor="subject">Subject</label>
-         <input type="text" name="subject" required />
+         <input type="subject" name="subject" required />
          <ValidationError
             prefix="Subject"
             field="subject"
