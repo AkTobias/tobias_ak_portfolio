@@ -1,5 +1,3 @@
-Not Finished yet
-
 !!IMPORTANT!!
 After downloading the repo, type -npm install to get all modules, since node-modules is excluded from git to save space.
 
@@ -20,8 +18,10 @@ The project is divided into the following components and files:
 -  home.jsx: The homepage of the site.
 -  portfolio.jsx: Displaying my projects.
 -  referrals.jsx: Section showcasing referrals.
--  technologies.jsx: Section showcasing technologies that i've worked with.
+-  technologies.jsx: Section showcasing technologies that I've worked with.
+-  contact.jsx: Sention for contacting me using formspree.
 -  App.js: Contains the main layout and routing of the app.
+-  about.jsx: Contains information about me.
 -  index.css: Global CSS for the project.
 
 --Principles and Methods--
