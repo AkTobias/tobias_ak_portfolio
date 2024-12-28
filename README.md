@@ -1,10 +1,12 @@
-!!IMPORTANT!!
-After downloading the repo, type -npm install to get all modules, since node-modules is excluded from git to save space.
+--IMPORTANT--
+After downloading the repository, run npm install to all required modules, as node_modules folder is excluded from Git to save space.
+
+This a school project where I practiced building my omw website with specific funtions and features.
 
 --Technologies Used--
 
 -  React: The core libary for building the user interface.
--  CSS: for styling components.
+-  CSS: for styling components and ensuring a consistent look.
 -  React Hooks (useState) for managing state, especially in functional components.
 -  Formspree: For handeling the contact form submission.
 
