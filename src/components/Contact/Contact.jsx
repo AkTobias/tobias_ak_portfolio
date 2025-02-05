@@ -5,17 +5,17 @@ import "./Contact.css";
 function Contact() {
    const [state, handleSubmit] = useForm("meoqbdol");
    if (state.succeeded) {
-      return <p>Thanks for sending me an email!</p>;
+      return <p className="contact__p">Thanks for sending me an email!</p>;
    }
 
    return (
       <form onSubmit={handleSubmit} className="contact__main">
          <label htmlFor="email">Email Address</label>
-         <input id="email" type="email" name="email" />
+         <input id="email" type="email" name="email" required />
          <ValidationError prefix="Email" field="email" errors={state.errors} />
 
          <label htmlFor="yourName">Name</label>
-         <input type="yourName" name="yourName" />
+         <input type="yourName" name="yourName" required />
          <ValidationError
             prefix="YourName"
             field="yourName"
@@ -31,7 +31,7 @@ function Contact() {
          />
 
          <label htmlFor="message">Message</label>
-         <textarea id="message" name="message" cols={30} rows={10} />
+         <textarea id="message" name="message" cols={30} rows={10} required />
          <ValidationError
             prefix="Message"
             field="message"
