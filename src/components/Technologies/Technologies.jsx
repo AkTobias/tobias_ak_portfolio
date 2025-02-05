@@ -22,7 +22,7 @@ function Technologies() {
                </div>
                <h3 className="technologies__h3">React</h3>
                <div className="progress__bar">
-                  <div className="progress" style={{ width: "60%" }}></div>
+                  <div className="progress" style={{ width: "70%" }}></div>
                </div>
                <h3 className="technologies__h3">C#</h3>
                <div className="progress__bar">
@@ -31,6 +31,18 @@ function Technologies() {
                <h3 className="technologies__h3">SQL</h3>
                <div className="progress__bar">
                   <div className="progress" style={{ width: "65%" }}></div>
+               </div>
+               <h3 className="technologies__h3">SQL</h3>
+               <div className="progress__bar">
+                  <div className="progress" style={{ width: "65%" }}></div>
+               </div>
+               <h3 className="technologies__h3">TypeScript</h3>
+               <div className="progress__bar">
+                  <div className="progress" style={{ width: "55%" }}></div>
+               </div>
+               <h3 className="technologies__h3">Vue</h3>
+               <div className="progress__bar">
+                  <div className="progress" style={{ width: "25%" }}></div>
                </div>
             </div>
          </div>

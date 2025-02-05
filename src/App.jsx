@@ -1,12 +1,12 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
+import About from "./components/About/AboutMe";
 import Contact from "./components/Contact/Contact";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/MyPortfolio";
 import Technologies from "./components/Technologies/Technologies";
 import Footer from "./components/Footer/Footer";
-import Referrals from "./components/Referrals/Referrals";
+import Referrals from "./components/Referrals/MyReferrals";
 
 import "./App.css";
 
