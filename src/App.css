@@ -46,9 +46,9 @@ main {
 
 }
 
-/* <<!!HEADER!!>> */
+/* /* <<!!HEADER!!>> */
 
-.header{
+/* .header{
  
     background-color: var(--BG-COLOR);
     padding: 1rem 0; 
@@ -90,8 +90,8 @@ main {
   color: var(--HOVER-COLOR); 
   text-shadow: var(--BOX-SH); 
   font-weight: bold; 
-}
-
+} */
+ 
 /* || HOME || */
 .home__section{
   display: flex;

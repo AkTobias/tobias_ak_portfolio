@@ -1,0 +1,45 @@
+/* <<!!HEADER!!>> */
+
+.header{
+ 
+    background-color: var(--BG-COLOR);
+    padding: 1rem 0; 
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: padding 0.3s, background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: var(--BOX-SH);
+
+ 
+}
+
+.header__ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.header a{
+
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: var(--FONT-HEADER);
+  color: var(--BTN-COLOR);
+  transition: color 0.3s;
+  
+}
+
+.header a:hover{
+  color: var(--HOVER-COLOR);
+  text-shadow: var(--BOX-SH)
+
+}
+
+.header a.active {
+  color: var(--HOVER-COLOR); 
+  text-shadow: var(--BOX-SH); 
+  font-weight: bold; 
+}
