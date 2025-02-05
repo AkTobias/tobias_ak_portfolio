@@ -93,7 +93,7 @@ main {
 } */
  
 /* || HOME || */
-.home__section{
+/* .home__section{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,13 +180,13 @@ main {
 }
   
 
-
+ */
 
 
 /* || ABOUT || */
 
 
-.about__section {
+/* .about__section {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -200,7 +200,7 @@ main {
   
 }
 
-/* Headings */
+
 .about__section h2 {
   font-size: 2.8rem;
   color: #444; 
@@ -216,7 +216,7 @@ main {
   margin-top: 1.5rem;
 }
 
-/* Paragraphs */
+
 .about__section p {
   font-size: 1.2rem;
   line-height: 1.6; 
@@ -224,7 +224,7 @@ main {
   margin: 0.5rem 0;
 }
 
-/* Lists */
+
 .about__section ul {
   padding: 0;
   margin: 1rem 0;
@@ -248,9 +248,9 @@ main {
  
 }
 
-
+ */
 /* <<!!PORTFOLIO!!>> */
-
+/* 
 .portfolio__header{
   text-align: center;
   font-size: 3rem;
@@ -316,11 +316,11 @@ font-size: 1.25rem;
 .card__img:hover{
   border: 2px solid var(--HOVER-COLOR)
 }
-
+ */
 
 
 /* || CONTACT || */
-
+/* 
 .contact__main{
   display: flex;
   flex-direction: column;
@@ -365,12 +365,12 @@ font-size: 1.25rem;
   width: auto; 
   padding-left: 10px;
   
-}
+} */
 
 
 /* || TECHNOLOGIES || */
 
-.technologies__section{
+/* .technologies__section{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -415,10 +415,10 @@ font-size: 1.25rem;
 }
 
 
-
+ */
 
 /* || REFERRALS || */
-.card__container{
+/* .card__container{
   padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -459,23 +459,23 @@ font-size: 1.25rem;
   word-wrap: break-word; 
 }
 
-/* Align-right for even index */
+
 .align-right {
   background-color: rgba(223, 221, 221, 0.758);
   align-self: flex-end; 
   text-align: center;
 }
 
-/* Align-left for odd index */
+
 .align-left {
   background-color: rgb(221, 221, 224);
   align-self: flex-start; 
   text-align: center;
-}
+} */
 
 
 /* || FOOTER || */
-footer{
+/* footer{
   color: white;
   font-size: 1.5rem;
   background-color: var(--BG-COLOR); 
@@ -483,7 +483,7 @@ footer{
   padding: 1rem 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   
-}
+} */
 
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {

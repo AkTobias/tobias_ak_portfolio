@@ -1,6 +1,7 @@
-import tobiasHs from "../img/tobiasHs.jpg";
-import CV from "../documents/cv.pdf";
-import hero from "../img/hero.jpg";
+import tobiasHs from "../../img/tobiasHs.jpg";
+import CV from "../../documents/cv.pdf";
+import hero from "../../img/hero.jpg";
+import "./Home.css";
 
 function Home() {
    return (

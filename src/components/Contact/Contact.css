@@ -1,0 +1,46 @@
+
+.contact__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem; 
+    background-color: #f9f9f9;
+    color: #333; 
+    text-align: center;
+  }
+  
+  .contact__main label{
+    font-size: 1.5rem;
+    
+  }
+  
+  .contact__main input{
+    padding: 5px;
+    font-size: 1.3rem;
+    border-radius: (1px);
+    box-shadow: var(--BOX-SH);
+    border-radius: 10px;
+    border: 2px;
+  }
+  
+  .contact__main textarea{
+    font-size: 1.3rem;
+    box-shadow: var(--BOX-SH);
+    border-radius: var(--BORDER-R);
+    border: 2px;
+  }
+  
+  .contact__p{
+    border: #1abc9c;
+    font-size: 2rem;
+    display: flex;
+  }
+  
+  .contact__p img {
+    display: inline-block;
+    height: 50px; 
+    width: auto; 
+    padding-left: 10px;
+    
+  }

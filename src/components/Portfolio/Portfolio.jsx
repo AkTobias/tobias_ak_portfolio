@@ -1,4 +1,5 @@
-import cards from "../portfolio_cards.json";
+import cards from "../../portfolio_cards.json";
+import "./Portfolio.css";
 
 function Portfolio() {
    const backupImg = (e) => {

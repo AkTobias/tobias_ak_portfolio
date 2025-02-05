@@ -1,0 +1,67 @@
+
+.portfolio__header{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    
+  }
+  
+  .portfolio__main {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 50px;
+    margin: 1rem;
+   
+  }
+  
+  
+  
+  .portfolio__card{
+    border: 3px solid var(--BG-COLOR);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: var(--BORDER-R);
+    transition: transform 0.3s;
+  }
+  
+  
+  .portfolio__h3{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.5rem;
+   color: black;
+    
+  
+  }
+  .card__img {
+    display: block; 
+    margin: 20px;
+    height: auto; 
+    border-radius: var(--BORDER-R); 
+    object-fit: cover; 
+    border: 2px solid black;
+  }
+  
+  .portfolio__p{
+   padding: 15px;
+   
+  font-size: 1.25rem;
+  }
+  
+  .project__link{
+    text-decoration: none;
+  }
+  .portfolio__card:hover{
+    transform: translateY(-5px);
+    border-color: var(--HOVER-COLOR);
+    box-shadow: var(--BOX-SH)
+  }
+  .card__img:hover{
+    border: 2px solid var(--HOVER-COLOR)
+  }
+  
