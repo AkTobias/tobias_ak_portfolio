@@ -1,3 +1,5 @@
+import "./Technologies.css";
+
 function Technologies() {
    return (
       <section className="technologies section">

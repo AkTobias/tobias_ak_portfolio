@@ -1,5 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
-import formspreeLogo from "../img/formspreeLogo.jpeg";
+import formspreeLogo from "../../img/formspreeLogo.jpeg";
+import "./Contact.css";
 
 function Contact() {
    const [state, handleSubmit] = useForm("meoqbdol");

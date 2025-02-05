@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Home from "./components/home";
-import About from "./components/about";
-import Contact from "./components/contact";
-import Portfolio from "./components/portfolio";
-import Technologies from "./components/technologies";
-import Footer from "./components/footer";
-import Referrals from "./components/referrals";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Portfolio from "./components/Portfolio/portfolio";
+import Technologies from "./components/Technologies/Technologies";
+import Footer from "./components/Footer/Footer";
+import Referrals from "./components/Referrals/referrals";
 
 import "./App.css";
 
