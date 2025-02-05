@@ -23,6 +23,7 @@
     width: 80%;
     max-width: 600px;
     margin: 0 auto;
+    padding-bottom: 20px;
   }
   
   
@@ -40,5 +41,6 @@
     background-color: var(--HOVER-COLOR);
     box-shadow: var(--BOX-SH);
     border-radius: 10px;
+    
   }
   
