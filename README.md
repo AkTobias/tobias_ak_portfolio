@@ -9,6 +9,7 @@ This a school project where I practiced building my omw website with specific fu
 -  CSS: for styling components and ensuring a consistent look.
 -  React Hooks (useState) for managing state, especially in functional components.
 -  Formspree: For handeling the contact form submission.
+-  Github-pages for hosting.
 
 --Project Structure--
 The project is divided into the following components and files:
